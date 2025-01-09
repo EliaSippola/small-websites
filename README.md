@@ -1,3 +1,11 @@
 # Repo for random smaller websites
 
 Smaller websites that were made for either school projects, tests, or own smaller projects.
+
+You can also check the readmes on the websites for more info about them.
+
+
+Websites:
+
+- SPA-1
+Small single page application that uses `react-router-dom` to display multiple different contents on same page.
