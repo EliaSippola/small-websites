@@ -14,3 +14,6 @@ Small single page application that uses `react-router-dom` to display multiple d
 
 - SPA-2
 Small website that uses multiple react features, and `react-icons` package
+
+- EXC-1
+CRA based app where goal is to create function based components from class based ones.
