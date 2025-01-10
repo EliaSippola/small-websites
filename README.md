@@ -2,6 +2,8 @@
 
 Smaller websites that were made for either school projects, tests, or own smaller projects.
 
+**The websites will be eventually depracated, since they are not actively maintained.**
+
 You can also check the readmes on the websites for more info about them.
 
 

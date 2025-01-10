@@ -6,6 +6,9 @@ Created using vite
 
 How to run:
 ```
+# install dependencies
+npm install
+
 # create build file
 npm run build
 
