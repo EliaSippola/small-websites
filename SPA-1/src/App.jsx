@@ -3,6 +3,12 @@ import './App.css'
 import Home from './components/home'
 import Connect from './components/Connect'
 import Story from './components/Story'
+import Map from './components/Map'
+
+// icons
+import '@fortawesome/fontawesome-free/js/all.js';
+import '@fortawesome/fontawesome-free/css/all.css'
+import Video from './components/Video'
 
 function App() {
 
@@ -13,11 +19,15 @@ function App() {
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/story">Stories</NavLink></li>
         <li><NavLink to="/connect">Connect</NavLink></li>
+        <li><NavLink to="/map">Map</NavLink></li>
+        <li><NavLink to="/video">Video</NavLink></li>
       </ul>
       <div className='content'>
         <Routes>
           <Route path='/story' element={<Story />} />
           <Route path='/connect' element={<Connect />} />
+          <Route path='/map' element={<Map />} />
+          <Route path='/video' element={<Video />} />
           <Route path='*' element={<Home />} />
         </Routes>
       </div>

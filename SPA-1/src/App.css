@@ -41,3 +41,60 @@ ul.header li a {
 .active {
   background-color: #0099ff;
 }
+
+.photos-flex {
+  display: flex;
+  gap: 10px;
+}
+
+.photos-flex img {
+  width: 300px;
+  user-select: none;
+}
+
+.connect-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.connect-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.connect-form form input, .connect-form form textarea {
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+
+.connect-form form input[type='text'] {
+  width: 30svh;
+  margin: auto;
+  padding: 2px;
+}
+
+.connect-form form textarea {
+  width: 30svh;
+  margin: auto;
+  resize: vertical;
+  padding: 3px;
+}
+
+.connect-form form input[type='submit'], .connect-form form input[type='reset'] {
+  display: inline-block;
+  width: 10svh;
+  padding: 2px;
+  margin: 0 10px;
+
+  &:hover {
+    border: 1px solid black;
+    background-color: #525252;
+    color: white;
+  }
+
+  &:active {
+    background-color: #292929;
+  }
+}
