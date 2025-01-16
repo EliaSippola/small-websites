@@ -1,0 +1,75 @@
+{
+    "Donitsit": [
+        {
+            "id": "0001",
+            "type": "donitsi",
+            "nimi": "Vaihtoehdot",
+            "hinta": 0.55,
+            "img": "https://spicysouthernkitchen.com/wp-content/uploads/2024/01/Mardi-Gras-Monkey-Bread-2-1-of-1.jpg",
+            "taytteet":
+                {
+                    "tayte":
+                        [
+                            { "id": "1001", "type": "Perinteinen" },
+                            { "id": "1002", "type": "Suklaa" },
+                            { "id": "1003", "type": "Mustikka" },
+                            { "id": "1004", "type": "Devil's Food" }
+                        ]
+                },
+            "lisatayte":
+                [
+                    { "id": "5001", "type": "Ei mitään" },
+                    { "id": "5002", "type": "Toffee" },
+                    { "id": "5005", "type": "Palasokeri" },
+                    { "id": "5007", "type": "Tomusokeri" },
+                    { "id": "5006", "type": "Suklaa strösseleillä" },
+                    { "id": "5003", "type": "Suklaa" },
+                    { "id": "5004", "type": "Vaahterasiirappi" }
+                ]
+        },
+        {
+            "id": "0002",
+            "type": "donitsi",
+            "nimi": "Muffinsi",
+            "hinta": 0.55,
+            "img": "https://spicysouthernkitchen.com/wp-content/uploads/2024/03/Buttermilk-Cornbread-Muffins.jpeg",
+            "taytteet":
+                {
+                    "tayte":
+                        [
+                            { "id": "1001", "type": "Perinteinen" }
+                        ]
+                },
+            "lisatayte":
+                [
+                    { "id": "5001", "type": "Ei mitään" },
+                    { "id": "5002", "type": "Toffee" },
+                    { "id": "5005", "type": "Sokeri" },
+                    { "id": "5003", "type": "Suklaa" },
+                    { "id": "5004", "type": "Vaahterasiirappi" }
+                ]
+        },
+        {
+            "id": "0003",
+            "type": "donitsi",
+            "nimi": "Perinteinen Donitsi",
+            "hinta": 0.55,
+            "img": "https://spicysouthernkitchen.com/wp-content/uploads/buttermilk-donuts-7.jpg",
+            "taytteet":
+                {
+                    "tayte":
+                        [
+                            { "id": "1001", "type": "Säännöllinen" },
+                            { "id": "1002", "type": "Suklaa" }
+                        ]
+                },
+            "lisatayte":
+                [
+                    { "id": "5001", "type": "Ei mitään" },
+                    { "id": "5002", "type": "Toffee" },
+                    { "id": "5003", "type": "Suklaa" },
+                    { "id": "5004", "type": "Vaahterasiirappi" }
+                ]
+        }
+    ]
+}
