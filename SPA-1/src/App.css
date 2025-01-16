@@ -110,3 +110,19 @@ ul.header li a {
     font-size: 16;
     color: 'blue';
 }
+
+.data {
+  width: 100%;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: white;
+  overflow: hidden;
+
+  & img {
+    height: 250px;
+  }
+}

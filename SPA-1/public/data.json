@@ -1,0 +1,75 @@
+{
+    "Donitsit": [
+        {
+            "id": "0001",
+            "type": "Donut",
+            "nimi": "Chances",
+            "hinta": 0.55,
+            "img": "https://spicysouthernkitchen.com/wp-content/uploads/2024/01/Mardi-Gras-Monkey-Bread-2-1-of-1.jpg",
+            "taytteet":
+                {
+                    "tayte":
+                        [
+                            { "id": "1001", "type": "traditional" },
+                            { "id": "1002", "type": "Chocolate" },
+                            { "id": "1003", "type": "Blueberry" },
+                            { "id": "1004", "type": "Devil's Food" }
+                        ]
+                },
+            "lisatayte":
+                [
+                    { "id": "5001", "type": "Nothing" },
+                    { "id": "5002", "type": "Toffee" },
+                    { "id": "5005", "type": "Sugar cubes" },
+                    { "id": "5007", "type": "Sugar" },
+                    { "id": "5006", "type": "chocolate with streusel" },
+                    { "id": "5003", "type": "chocolate" },
+                    { "id": "5004", "type": "Maple Syrup" }
+                ]
+        },
+        {
+            "id": "0002",
+            "type": "Donut",
+            "nimi": "Muffin",
+            "hinta": 0.55,
+            "img": "https://spicysouthernkitchen.com/wp-content/uploads/2024/03/Buttermilk-Cornbread-Muffins.jpeg",
+            "taytteet":
+                {
+                    "tayte":
+                        [
+                            { "id": "1001", "type": "traditional" }
+                        ]
+                },
+            "lisatayte":
+                [
+                    { "id": "5001", "type": "Nothing" },
+                    { "id": "5002", "type": "Toffee" },
+                    { "id": "5007", "type": "Sugar" },
+                    { "id": "5003", "type": "chocolate" },
+                    { "id": "5004", "type": "Maple Syrup" }
+                ]
+        },
+        {
+            "id": "0003",
+            "type": "Donut",
+            "nimi": "Traditional Donut",
+            "hinta": 0.55,
+            "img": "https://spicysouthernkitchen.com/wp-content/uploads/buttermilk-donuts-7.jpg",
+            "taytteet":
+                {
+                    "tayte":
+                        [
+                            { "id": "1001", "type": "Regular" },
+                            { "id": "1002", "type": "Chocolate" }
+                        ]
+                },
+            "lisatayte":
+                [
+                    { "id": "5001", "type": "Nothing" },
+                    { "id": "5002", "type": "Toffee" },
+                    { "id": "5003", "type": "Chocolate" },
+                    { "id": "5004", "type": "Maple Syrup" }
+                ]
+        }
+    ]
+}
