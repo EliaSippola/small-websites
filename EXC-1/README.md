@@ -8,7 +8,8 @@ Some of the website source is in finnish
 
 Date: 10.1.2025 (1/10/2025)
 
-Goal of exercise: change class based functions to function based ones. ✅
+Goal of exercise: 
+1. change class based functions to function based ones. ✅
 
 how to run
 ```
