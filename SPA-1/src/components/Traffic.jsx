@@ -1,9 +1,45 @@
-import './camera-selection.css';
+import { useState } from "react";
 
-// http://tie.digitraffic.fi/api/v1/metadata/camera-stations
-// http://tie.digitraffic.fi/api/v1/data/camera-data/{id}
+export default function Traffic() {
 
-// possible selectable cameras and their names
+    // Create useState to store our camera selection
+    const [select, setSelect] = useState(undefined);
+
+    return (
+        <>
+        <div className="app-header">
+            {/* Header */}
+            <h2>Traffic Camera Viewer - Joensuu/Lieksa</h2>
+        </div>
+        {/* Camera selector */}
+        <CameraSelection
+            selectedPresetId={select}
+            onSelect={(val) => setSelect(val)}
+        />
+        {/* Display selected camera */}
+        {select ?
+            <div className="camera-container">
+            <CameraView presetId={select} />
+            </div>
+            : null
+        }
+        </>
+    );
+
+}
+
+const CameraView = ({ presetId }) => {
+    return (
+        <div className="Camera-selection-container">
+            {/* Get image from weathercam api with presetId */}
+            <img
+                src={ `http://weathercam.digitraffic.fi/${presetId}.jpg`}
+                alt={ `Camera ${presetId}`}
+             />
+        </div>
+    )
+}
+
 const cameras = [
     { presetId: '', name: '-' },
     { presetId: 'C0750301', name: 'Joensuu Hoilola' },
@@ -40,5 +76,3 @@ const CameraSelection = ({ selectedPresetId, onSelect }) => {
         </div>
     )
 }
-
-export default CameraSelection;

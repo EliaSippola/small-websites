@@ -1,44 +1,33 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import React, { useState } from 'react';
 import './App.css';
 import CameraSelection from './CameraSelection/camera-selection'
 import CameraView from './CameraView/camera-view'
 
-class App extends Component {
+const App = () => {
 
-  constructor() {
-    super();
-    this.state = { selectedPresetId: null }
-  }
+  // Create useState to store our camera selection
+  const [select, setSelect] = useState(undefined);
 
-  cameraSelected = (value) => {
-    this.setState({ selectedPresetId: value });
-  }
-
-  render = () => {
-    const { selectedPresetId } = this.state;
-    return (
-      <div className="app">
-        <div className="app-header">
-          <h2>Traffic Camera Viewer - Tampere</h2>
-        </div>
-        <CameraSelection
-          selectedPresetId={this.state.selectedPresetId}
-          onSelect={(value) => this.cameraSelected(value)}
-        />
-        {selectedPresetId ?
-          <div className="camera-container">
-            <CameraView presetId={selectedPresetId} />
-          </div>
-          : null
-        }
+  return (
+    <div className="app">
+      <div className="app-header">
+        {/* Header */}
+        <h2>Traffic Camera Viewer - Joensuu/Lieksa</h2>
       </div>
-    );
-  }
-}
-
-App.propTypes = {
-  selectedPresetId: PropTypes.string.isRequired
+      {/* Camera selector */}
+      <CameraSelection
+        selectedPresetId={select}
+        onSelect={(val) => setSelect(val)}
+      />
+      {/* Display selected camera */}
+      {select ?
+        <div className="camera-container">
+          <CameraView presetId={select} />
+        </div>
+        : null
+      }
+    </div>
+  );
 }
 
 export default App;

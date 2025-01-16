@@ -98,3 +98,15 @@ ul.header li a {
     background-color: #292929;
   }
 }
+
+.Camera-selection-container {
+  align-content: center;
+  background-color: lightblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Camera-selection-text {
+    font-size: 16;
+    color: 'blue';
+}

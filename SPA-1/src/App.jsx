@@ -9,6 +9,7 @@ import Map from './components/Map'
 import '@fortawesome/fontawesome-free/js/all.js';
 import '@fortawesome/fontawesome-free/css/all.css'
 import Video from './components/Video'
+import Traffic from './components/Traffic'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <li><NavLink to="/connect">Connect</NavLink></li>
         <li><NavLink to="/map">Map</NavLink></li>
         <li><NavLink to="/video">Video</NavLink></li>
+        <li><NavLink to="/traffic">Traffic</NavLink></li>
       </ul>
       <div className='content'>
         <Routes>
@@ -28,6 +30,7 @@ function App() {
           <Route path='/connect' element={<Connect />} />
           <Route path='/map' element={<Map />} />
           <Route path='/video' element={<Video />} />
+          <Route path='/Traffic' element={<Traffic />} />
           <Route path='*' element={<Home />} />
         </Routes>
       </div>
