@@ -12,6 +12,9 @@ Websites:
 - SPA-1
 Small single page application that uses `react-router-dom` to display multiple different contents on same page. Some of the EXC website functionality is added here as well.
 
+- SRV-1
+Server to support SPA-1 (required to use wikisearch tab in SPA-1)
+
 - SPA-2
 Small website that uses multiple react features, and `react-icons` package
 
