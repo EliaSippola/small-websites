@@ -1,5 +1,10 @@
+html {
+  height: 100svh;
+}
+
 body {
-  background-color: #ffcc00;
+  background-image: linear-gradient(to bottom right, red, yellow);
+  background-size: auto;
   padding: 20px;
   margin: 0;
   font-family: sans-serif;
