@@ -1,4 +1,4 @@
-# SPA-2
+# EXC-5
 
 Small website that uses multiple react features, and `react-icons` package
 

@@ -6,7 +6,6 @@ Smaller websites that were made for either school projects, tests, or own smalle
 
 You can also check the readmes on the websites for more info about them.
 
-
 Websites:
 
 - **SPA-1** :
@@ -14,9 +13,6 @@ Small single page application that uses `react-router-dom` to display multiple d
 
 - **SRV-1** :
 Server to support SPA-1 (required to use wikisearch tab in SPA-1)
-
-- **SPA-2** :
-Small website that uses multiple react features, and `react-icons` package
 
 - **EXC-1** :
 CRA based app where goal is to create function based components from class based ones.
@@ -29,3 +25,17 @@ Small website that reads and displays data from json. Functionality added to SPA
 
 - **EXC-4** :
 Small website that uses `styled-components` package.
+
+- **EXC-5** :
+Small website that uses multiple react features, and `react-icons` package
+
+
+## naming convention
+
+The websites are named as such:
+
+**SPA** = Single Page Application
+
+**SRV** = Server
+
+**EXC** = Excercise
