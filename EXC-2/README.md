@@ -2,7 +2,7 @@
 
 This is a school excercise, it was setupped by school, so I did not have control over the tools use (CRA is depracated)
 
-CRA based app where goal is to create function based components from class based ones.
+CRA based app.
 
 Some of the website and the source is in finnish
 
