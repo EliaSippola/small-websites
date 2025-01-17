@@ -126,3 +126,39 @@ ul.header li a {
     height: 250px;
   }
 }
+
+/* schema form */
+
+.rjsf {
+  display: flex;
+  flex-direction: column;
+
+  & .form-group {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+  }
+
+  & input, & select, & textarea {
+    padding: 2px;
+    margin: 5px;
+  }
+
+  & input {
+    width: 300px;
+  }
+
+  & select {
+    width: 308px;
+  }
+
+  & textarea {
+    width: 302px;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 300px;
+  }
+
+  & div {
+    grid-column: 1 / 3;
+  }
+}

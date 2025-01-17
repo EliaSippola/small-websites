@@ -7,6 +7,7 @@ import Map from './components/Map'
 import Video from './components/Video'
 import Traffic from './components/Traffic'
 import Donuts from './components/Donuts'
+import SchemaForm from './components/schema-form'
 
 // icons
 import '@fortawesome/fontawesome-free/js/all.js';
@@ -25,6 +26,7 @@ function App() {
         <li><NavLink to="/video">Video</NavLink></li>
         <li><NavLink to="/traffic">Traffic</NavLink></li>
         <li><NavLink to="/donuts">Donuts</NavLink></li>
+        <li><NavLink to="/schema-form">Schema form</NavLink></li>
       </ul>
       <div className='content'>
         <Routes>
@@ -34,6 +36,7 @@ function App() {
           <Route path='/video' element={<Video />} />
           <Route path='/traffic' element={<Traffic />} />
           <Route path='/donuts' element={<Donuts />} />
+          <Route path='/schema-form' element={<SchemaForm />} />
           <Route path='*' element={<Home />} />
         </Routes>
       </div>

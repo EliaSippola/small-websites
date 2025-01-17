@@ -12,6 +12,8 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "@rjsf/core": "^5.24.1",
+    "@rjsf/validator-ajv8": "^5.24.1",
     "leaflet": "^1.9.4",
     "react": "^19.0.0-rc.1",
     "react-dom": "^19.0.0-rc.1",
