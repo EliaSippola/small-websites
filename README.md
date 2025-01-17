@@ -2,7 +2,7 @@
 
 Smaller websites that were made for either school projects, tests, or own smaller projects.
 
-**The websites will be eventually depracated, since they are not actively maintained. As of 17th of Janyary, 2025. EXC-1 and EXC-2 are depracated as they use create-react-app**
+**The websites will be eventually depracated, since they are not actively maintained. As of 17th of January, 2025. EXC-1 and EXC-2 are depracated as they use create-react-app**
 
 You can also check the readmes on the websites for more info about them.
 
