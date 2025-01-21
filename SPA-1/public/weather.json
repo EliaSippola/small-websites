@@ -1,0 +1,8 @@
+{
+    "locations": [
+        {"name": "Inari", "temperature": -15},
+        {"name": "Joensuu", "temperature": -5},
+        {"name": "Kuopio", "temperature": -8},
+        {"name": "Tallinna", "temperature": 10}
+    ]
+}
