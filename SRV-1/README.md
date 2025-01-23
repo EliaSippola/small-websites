@@ -7,6 +7,11 @@ how to run:
 # install packages
 npm install
 
+# create .env file
+create-dotenv.bat
+
+# run mysql server and put the details to .env
+
 # start server
 npm run start
 ```

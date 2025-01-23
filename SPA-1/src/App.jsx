@@ -14,6 +14,7 @@ import '@fortawesome/fontawesome-free/js/all.js';
 import '@fortawesome/fontawesome-free/css/all.css';
 import Wikisearch from './components/Wikisearch'
 import WeatherChart from './components/WeatherChart'
+import News from './components/News'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
         <li><NavLink to="/schema-form">Schema form</NavLink></li>
         <li><NavLink to="/wikisearch">Wiki search</NavLink></li>
         <li><NavLink to="/weatherchart">Weather chart</NavLink></li>
+        <li><NavLink to="/news">News</NavLink></li>
       </ul>
       <div className='content'>
         <Routes>
@@ -43,6 +45,7 @@ function App() {
           <Route path='/schema-form' element={<SchemaForm />} />
           <Route path='/wikisearch' element={<Wikisearch />} />
           <Route path='/weatherchart' element={<WeatherChart />} />
+          <Route path='/news' element={<News />} />
           <Route path='*' element={<Home />} />
         </Routes>
       </div>
