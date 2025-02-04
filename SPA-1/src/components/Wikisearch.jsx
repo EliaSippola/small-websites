@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 async function searchFromWiki(search) {
 
-    const url = "http://localhost:4000/wikisearch/api/" + encodeURIComponent(search);
+    const url = "http://localhost:4001/wikisearch/api/" + encodeURIComponent(search);
 
     const data = await fetch(url).catch((e) => {});
     if (data == undefined) {

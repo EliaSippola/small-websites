@@ -234,4 +234,41 @@ ul.header li a {
   padding: 10px 5px 5px 10px;
   border-radius: 5px;
   box-shadow: 1px 1px 5px #111;
+
+  & div {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 2px;
+  }
+
+  & button, & input[type=submit] {
+    width: 60px;
+  }
+}
+
+.h2-like {
+  width: 100%;
+  border: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  align-self: baseline;
+}
+
+.p-like {
+  border: none;
+  font-family: sans-serif;
+  font-size: 1em;
+  padding: 0;
+  margin: 0.5em 0;
+  height: 1.4em;
+  max-height: 200px;
+  width: 100%;
+  resize: vertical;
+}
+
+.news-card-dates {
+  color: #838383;
+  font-size: 0.7em;
 }

@@ -61,7 +61,7 @@ exports.create = async (req, res) => {
             }
     
             res.status(200).end();
-            console.log("POST req completed from " + req.ip + " with result " + rows);
+            console.log("POST req completed from " + req.ip + " with result " + rows.affectedRows);
         });
 
         conn.release();
@@ -83,7 +83,7 @@ exports.delete = async (req, res) => {
     }
 
     const sql = 'DELETE FROM `news` WHERE `id` = ? LIMIT 1';
-    const values = [id];
+    const values = [id.id];
 
     db.getPool().getConnection((err, conn) => {
         if (err instanceof Error) {
@@ -99,7 +99,7 @@ exports.delete = async (req, res) => {
             }
     
             res.status(200).end();
-            console.log("DELETE req completed from " + req.ip + " with result " + rows);
+            console.log("DELETE req completed from " + req.ip + " with result " + rows.affectedRows);
         });
 
         conn.release();
@@ -110,7 +110,7 @@ exports.delete = async (req, res) => {
 exports.update = async (req, res) => {
 
     const { title, text } = req.body;
-    const id = req.params;
+    const id = req.params.id;
 
     if (id == undefined || title == undefined || text == undefined) {
         res.status(400).end();
@@ -139,7 +139,7 @@ exports.update = async (req, res) => {
             }
     
             res.status(200).end();
-            console.log("UPDATE req completed from " + req.ip + " with result " + rows);
+            console.log("UPDATE req completed from " + req.ip + " with result " + rows.affectedRows);
         });
 
         conn.release();

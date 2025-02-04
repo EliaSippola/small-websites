@@ -9,7 +9,7 @@ router.get('/', control.getAll);
 router.post('/', control.create);
 
 // delete news
-router.delete('/', control.delete);
+router.delete('/:id', control.delete);
 
 // update news
 router.put('/:id', control.update);
